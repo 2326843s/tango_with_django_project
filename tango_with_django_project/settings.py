@@ -129,6 +129,7 @@ USE_TZ = True
 #Other variables
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
